@@ -19,9 +19,9 @@ It currently shows (in order of the prompt):
 ### For [oh-my-zsh](http://ohmyz.sh) users  
 If you're using oh-my-zsh, follow these steps to install hyperzsh:  
 1. `mkdir $ZSH_CUSTOM/themes` _You can skip this command if the directory exists already_
-2. `wget -O $ZSH_CUSTOM/themes/hyperzsh.zsh-theme https://raw.githubusercontent.com/tylerreckart/hyperzsh/master/hyperzsh.zsh-theme`  
-3. `vim ~/.zshrc`  
-4. Set `ZSH_THEME="current_theme"` to `ZSH_THEME="hyperzsh"`  
+3. `wget -O $ZSH_CUSTOM/themes/hyperzsh.zsh-theme https://raw.githubusercontent.com/herbermqh/hyperzsh/master/hyperzsh.zsh-theme`  
+4. `vim ~/.zshrc`  
+5. Set `ZSH_THEME="current_theme"` to `ZSH_THEME="hyperzsh"`  
 
 ### For [Zgen](https://github.com/tarjoilija/zgen) users
 1. Add `zgen load tylerreckart/hyperzsh` to your `.zshrc` with your other `zgen load` statements.  
